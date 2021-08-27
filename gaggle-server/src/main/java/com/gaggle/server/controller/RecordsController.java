@@ -29,11 +29,6 @@ public class RecordsController {
 		return contacts;
 	}
 	
-//	@RequestMapping(path = "contact/{id}", method = RequestMethod.GET)
-//	public String getNameFromId(@PathVariable Long contactId) {
-//		String getTheName = recordsDAO.getNameFromId(contactId);
-//		return getTheName;
-//	}
 	
 	@RequestMapping(path = "contacts/{id}", method = RequestMethod.GET)
 	public Contact getSelectedContact(@PathVariable Long id) {
