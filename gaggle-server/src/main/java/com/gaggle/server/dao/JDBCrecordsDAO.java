@@ -37,19 +37,6 @@ public class JDBCrecordsDAO implements RecordsDAO {
 	}
 	
 	
-	
-	
-	private Contact mapRowToContact(SqlRowSet rs) {
-        
-		Contact contact = new Contact();
-        contact.setContactId(rs.getLong("contact_id"));
-        contact.setFirstName(rs.getString("first_name"));
-        contact.setLastName(rs.getString("last_name"));
-        
-        
-        return contact;
-    }
-
 
 
 	@Override
@@ -64,6 +51,17 @@ public class JDBCrecordsDAO implements RecordsDAO {
 		return contact;
 	}
 
+	
+	private Contact mapRowToContact(SqlRowSet rs) {
+        
+		Contact contact = new Contact();
+        contact.setContactId(rs.getLong("contact_id"));
+        contact.setFirstName(rs.getString("first_name"));
+        contact.setLastName(rs.getString("last_name"));
+        
+        
+        return contact;
+    }
 
 
 }
