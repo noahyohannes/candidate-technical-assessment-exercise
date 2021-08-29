@@ -19,6 +19,7 @@ The demo utilizes Eclipse IDE for Enterprise Java and Web Developers. This proje
 			• Database Password: Novaprime@2014
    4. File > Open > database/schema.sql.
    5. Database > Reconnect > directoryofnames.
+   6. SQL Commander > Execute.
 
 
 ## How to start the application
