@@ -1,6 +1,6 @@
 # Gaggle Technical Assessment 
 
-The demo utilizes Eclipse IDE for Enterprise Java and Web Developers. This project uses Maven project build structures with Spring Boot as well as other dependencies shown in the pom.xml for both the server & client side. Development was done using Java SDK version 11.0.8. The entire project utilizes PostgreSQL 13 as a database service & DB Visualizer Free 12.1.1.
+The demo utilizes Eclipse IDE for Enterprise Java and Web Developers. This project uses Maven project build structures with Spring Boot as well as other dependencies shown in the pom.xml for both the server & client side. Development was done using Java SDK version 11.0.8. The entire project utilizes PostgreSQL 13 as a database service & DB Visualizer Free 12.1.1 for table space visualization.
 
 
 ## How to set up the database
