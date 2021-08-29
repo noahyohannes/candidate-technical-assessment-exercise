@@ -97,7 +97,6 @@ Prompts will appear in the Console.
 
 The `contact` table stores the contact Id,  first & last names.
 
-There are two types of transfers:
 
 | `contact_id` | `first_name` | `last_name`  |
 | ------------ | ------------ | ------------ |
