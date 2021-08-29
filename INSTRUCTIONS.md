@@ -12,11 +12,11 @@ The demo utilizes Eclipse IDE for Enterprise Java and Web Developers. This proje
    		1. CREATE DATABASE directoryofnames2;
    3. Database > Create a Database Connection.
    		1. Select "no wizard".
-   			• Name: directoryofnames
-			• Driver (JDBC):PostgreSQL
-			• Database: directoryofnames
-			• Databse Userid: postgres
-			• Database Password: Novaprime@2014
+   			1. Name: directoryofnames
+			2. Driver (JDBC):PostgreSQL
+			3. Database: directoryofnames
+			4. Databse Userid: postgres
+			5. Database Password: Novaprime@2014
    4. File > Open > database/schema.sql.
    5. Database > Reconnect > directoryofnames.
    6. SQL Commander > Execute.
