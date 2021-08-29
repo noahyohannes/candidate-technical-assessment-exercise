@@ -94,7 +94,7 @@ Prompts will appear in the Console.
 
 ### Contact table
 
-The `contact` table stores the first & last.
+The `contact` table stores the contact Id,  first & last names.
 
 There are two types of transfers:
 
